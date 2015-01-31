@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<package version="3.0" unique-identifier="{uid}">
+<package id="packageDocument" version="3.0" unique-identifier="{uid}" xml:lang="{lang}">
     <metadata>
         <dc:identifier>{uid}</dc:identifier>
         <dc:language>{lang}</dc:language>
         <dc:title>{title}</dc:title>
-        <meta></meta>
+        <meta property="dcterms:modified">{dcTermsModified}</meta>
         <link></link>
     </metadata>
     <manifest></manifest>
     <spine></spine>
-    <guide></guide>
     <bindngs></bindngs>
     <collection></collection>
 </package>
