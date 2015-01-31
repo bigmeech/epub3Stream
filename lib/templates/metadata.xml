@@ -1,8 +1,9 @@
-<package version="3.0" unique-identifier="">
+<?xml version="1.0" encoding="UTF-8"?>
+<package version="3.0" unique-identifier="{uid}">
     <metadata>
-        <dc:identifier></dc:identifier>
-        <dc:language></dc:language>
-        <dc:title></dc:title>
+        <dc:identifier>{uid}</dc:identifier>
+        <dc:language>{lang}</dc:language>
+        <dc:title>{title}</dc:title>
         <meta></meta>
         <link></link>
     </metadata>
