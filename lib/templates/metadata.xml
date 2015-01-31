@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<package id="packageDocument" version="3.0" unique-identifier="{uid}" xml:lang="{lang}">
+<package id="packageDocument" version="3.0" unique-identifier="{identity}" xml:lang="{lang}">
     <metadata>
-        <dc:identifier>{uid}</dc:identifier>
-        <dc:language>{lang}</dc:language>
-        <dc:title>{title}</dc:title>
-        <meta property="dcterms:modified">{dcTermsModified}</meta>
-        <link></link>
+        <dc:identifier>{identity}</dc:identifier><!--global identity for the book. Must be unique-->
+        <dc:language>{lang}</dc:language><!--Stores language for rendering the book content-->
+        <dc:title>{title}</dc:title><!--Stores the title of the book-->
+        <dc:creator>{author}</dc:creator><!--stores the name of the author-->
+        <dc:date>{datePublished}</dc:date><!--stores date the ebook was published-->
+        <meta property="dcterms:modified">{lastModified}</meta>
+
+        <link></link><!-- stores links to resources here-->
     </metadata>
     <manifest></manifest>
     <spine></spine>
