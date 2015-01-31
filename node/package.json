@@ -1,0 +1,26 @@
+{
+  "name": "Epub3",
+  "version": "0.0.0",
+  "description": "Epub file creator and packager",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/github/bigmeech"
+  },
+  "author": "Larry Eliemenye",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/github/bigmeech/issues"
+  },
+  "homepage": "https://github.com/github/bigmeech",
+  "dependencies": {
+    "adm-zip": "~0.4.4",
+    "sax": "~0.6.1",
+    "lodash": "~3.0.1",
+    "xml2js": "~0.4.4",
+    "dust": "~0.3.0"
+  }
+}

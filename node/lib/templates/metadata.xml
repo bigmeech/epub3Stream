@@ -1,0 +1,14 @@
+<package version="3.0" unique-identifier="">
+    <metadata>
+        <dc:identifier></dc:identifier>
+        <dc:language></dc:language>
+        <dc:title></dc:title>
+        <meta></meta>
+        <link></link>
+    </metadata>
+    <manifest></manifest>
+    <spine></spine>
+    <guide></guide>
+    <bindngs></bindngs>
+    <collection></collection>
+</package>
