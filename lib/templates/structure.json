@@ -1,0 +1,14 @@
+{
+  "EPUB": {
+    "covers":{},
+    "css":{},
+    "fonts":{},
+    "images":{},
+    "lexicon":{},
+    "package":"opf"
+  },
+  "META-INF": {
+    "container":"xml"
+  },
+  "mimetype":null
+}
