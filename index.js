@@ -1,8 +1,10 @@
 var EpubStream = require("./lib/core");
 var eStream = new EpubStream({
     title:"Far from a maddening crowd",
-    author:"Larry Eliemenye"
+    author:"Dagmara Eliemenye"
 });
-eStream.create("../mybooks");
+eStream.create(function(err, epub){
+    console.log(err, epub)
+});
 
 module.exports = eStream;
